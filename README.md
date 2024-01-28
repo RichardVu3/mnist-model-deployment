@@ -13,22 +13,18 @@ _Below is an example of how we can containerize and deploy our model._
    ```sh
    git clone https://github.com/RichardVu3/mnist-model-deployment.git
    ```
-3. Change directory to `part1`
-   ```sh
-   cd part1
-   ```
-4. Run your Docker desktop application
-5. Build the Docker image
+3. Run your Docker desktop application
+4. Build the Docker image
    ```sh
    bash build.sh
    ```
    _Note that the model will be trained and stored in the Docker image_
-6. Run the Docker image
+5. Run the Docker image
    ```sh
    bash run.sh
    ```
    _Note that this step also unzips the `images` file._
-7. Use the Deep Learning model to predict a random image
+6. Use the Deep Learning model to predict a random image
    ```sh
    bash infer.sh
    ```
