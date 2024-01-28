@@ -11,7 +11,7 @@ _Below is an example of how we can containerize and deploy our model._
 1. Download Docker desktop and install as instructed at [https://docs.docker.com](https://docs.docker.com)
 2. Clone the repo
    ```sh
-   git clone [https://github.com/mpcs-52040/homework-2-RichardVu3.git](https://github.com/RichardVu3/mnist-model-deployment.git)
+   git clone https://github.com/RichardVu3/mnist-model-deployment.git
    ```
 3. Change directory to `part1`
    ```sh
